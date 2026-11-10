@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "type": "commonjs",
   "devDependencies": {
     "msw": "^3.0.4",
+    "prettier": "^3.9.10",
     "vitest": "^5.1.0"
   }
 }
